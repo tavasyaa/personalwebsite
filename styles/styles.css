@@ -1,0 +1,18 @@
+.introsection {
+  height: 100vh;
+}
+
+.section {
+  height: 70vh;
+}
+
+.mugshot {
+  width: 20vh;
+  height: 20vh;
+}
+
+.card {
+  max-width: 20vw;
+}
+
+/*# sourceMappingURL=styles.css.map */

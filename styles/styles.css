@@ -1,18 +1,45 @@
+body {
+  margin-left: 500px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #eeeeee;
+  height: 10vh;
+}
+
 .introsection {
-  height: 100vh;
+  height: 90vh;
+  display: flex;
+  align-items: center;
 }
 
 .section {
   height: 70vh;
+  text-align: center;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
 }
 
 .mugshot {
-  width: 20vh;
-  height: 20vh;
+  width: 40vh;
+  height: 40vh;
+  max-width: 40vw;
+  max-height: 40vw;
 }
 
 .card {
   max-width: 20vw;
+}
+
+i {
+  position: relative;
+  top: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */

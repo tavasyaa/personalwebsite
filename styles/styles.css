@@ -42,4 +42,9 @@ i {
   top: 5px;
 }
 
+.book {
+  max-height: 50vh;
+  max-width: 25vw;
+}
+
 /*# sourceMappingURL=styles.css.map */

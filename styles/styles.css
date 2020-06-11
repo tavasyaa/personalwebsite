@@ -1,5 +1,24 @@
-body {
-  margin-left: 500px;
+html {
+  scroll-behavior: smooth;
+}
+
+a:link {
+  color: black;
+}
+
+/* unvisited link */
+a:visited {
+  color: black;
+}
+
+/* visited link */
+a:hover {
+  color: black;
+}
+
+/* mouse over link */
+a:active {
+  color: black;
 }
 
 footer {
@@ -10,6 +29,10 @@ footer {
   height: 10vh;
 }
 
+.navbarlink {
+  color: white !important;
+}
+
 .introsection {
   height: 90vh;
   display: flex;
@@ -17,7 +40,6 @@ footer {
 }
 
 .section {
-  height: 70vh;
   text-align: center;
 }
 
@@ -33,10 +55,20 @@ footer {
   max-height: 40vw;
 }
 
-.card {
-  max-width: 20vw;
+@media only screen and (min-width: 1062px) {
+  .card {
+    max-width: 20vw;
+  }
 }
+@media only screen and (max-width: 600px) {
+  .card {
+    max-width: 50vw;
+  }
 
+  .thingsbuilt {
+    max-width: 35vw;
+  }
+}
 i {
   position: relative;
   top: 5px;
@@ -45,6 +77,13 @@ i {
 .book {
   max-height: 50vh;
   max-width: 25vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .book {
+    max-height: 20vh !important;
+    margin-top: 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

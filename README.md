@@ -4,6 +4,6 @@
 #### To do:
 Get rid of all extra SCSS, CSS files 
 The navbar is way too fat   
-Make responsive -- s, m, l for columns   
-Down button like in World Cup   
-Navbar  
+Navbar on mobile!  
+Close the margins a bit on the sides  
+Hover effects

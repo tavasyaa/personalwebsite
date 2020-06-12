@@ -55,6 +55,11 @@ footer {
   max-height: 40vw;
 }
 
+div.card:hover {
+  right: 2px;
+  bottom: 2px;
+}
+
 @media only screen and (min-width: 1062px) {
   .card {
     max-width: 20vw;
@@ -77,6 +82,8 @@ i {
 .book {
   max-height: 50vh;
   max-width: 25vw;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -84,6 +91,10 @@ i {
     max-height: 20vh !important;
     margin-top: 10px;
   }
+}
+.contacticons {
+  height: 30px;
+  width: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
